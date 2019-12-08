@@ -1,0 +1,6 @@
+f = open('deneme.txt','w')
+f.write('Merhaba Dunya')
+f.close()
+f = open('deneme.txt','r')
+print(f.read())
+f.close()
